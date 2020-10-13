@@ -1,0 +1,16 @@
+<?php return array (
+  'backup' => 'Respaldo',
+  'backup_list' => 'Lista de Respaldo',
+  'could_not_find' => 'No se pudo encontrar la copia de seguridad seleccionada.',
+  'delete_previous_backup?' => 'Borrar copia de seguridad anterior',
+  'deleted' => 'Respaldo borrado',
+  'download' => 'Descargar',
+  'generate_backup' => 'Generar Respaldo',
+  'generated' => 'Respaldo generado',
+  'generated_at' => 'Generado en:',
+  'module_info_description' => 'Nunca pierdas tu base de datos. Programe copias de seguridad diarias, descargue copias de seguridad.',
+  'module_info_title' => '¡Crea copias de seguridad diarias aquí!',
+  'name' => 'Nombre',
+  'tip_backup' => 'Se realizará una copia de seguridad de toda la base de datos en formato sql en la carpeta storage / app / uploads / backup. Cada copia de seguridad se nombrará con la fecha y hora actuales. La copia de seguridad se puede descargar haciendo clic en el botón de descarga.',
+  'tip_delete_previous_backup' => 'Si está habilitado, la copia de seguridad de la base de datos anterior se eliminará',
+);

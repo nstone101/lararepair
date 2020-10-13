@@ -1,0 +1,18 @@
+<?php return array (
+  'add_new_permission' => 'Pridať práva',
+  'added' => 'Práva pridané.',
+  'assign_permission' => 'Priradiť práva',
+  'assigned' => 'Práva boli priradené.',
+  'could_not_find' => 'geSys nevie nájsť zvolené práva.',
+  'delete_permission' => 'Zmazať práva',
+  'deleted' => 'Práva zmazané!',
+  'module_info_description' => 'Spravujte kto môže robiť čo. Pridajte viacero práv jednej osobe podľa ľubovoľného zvolenia.',
+  'module_info_title' => 'Zatiaľ žiadne práva, pridajte nejaké!',
+  'name' => 'Názov',
+  'permission' => 'Práva',
+  'permission_denied' => 'Nemáte práva na vykonanie tejto akcie.',
+  'permission_list' => 'Zoznam práv používateľov',
+  'permissions' => 'Práva',
+  'tip_assign_permission' => 'Povoľte/zakážte práva pre správu povolených možností daných užívateľov.',
+  'tip_permission' => 'V základe geSys podporuje určité práva, ktoré nie je možné modifikovať ani odstrániť. Môžte pridať ľubovoľné množstvo práv. Prečítajte si dokumentáciu geSys a zistite viac o správe práv v systéme..',
+);

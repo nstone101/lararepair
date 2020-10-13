@@ -1,0 +1,87 @@
+#invoice-POS {
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding: 2mm;
+  margin: 0 auto;
+  width: 80mm;
+  background: #FFF;
+}
+#invoice-POS ::selection {
+  background: #f31544;
+  color: #FFF;
+}
+#invoice-POS ::moz-selection {
+  background: #f31544;
+  color: #FFF;
+}
+#invoice-POS h1 {
+  font-size: 1.5em;
+  color: #222;
+}
+#invoice-POS h2 {
+  font-size: .9em;
+}
+#invoice-POS h3 {
+  font-size: 1.2em;
+  line-height: 2em;
+}
+#invoice-POS p {
+  font-size: .7em;
+  color: #666;
+  line-height: 1.2em;
+}
+#invoice-POS #top, #invoice-POS #mid, #invoice-POS #bot {
+  border-bottom: 1px solid #EEE;
+}
+#invoice-POS #top {
+  min-height: 100px;
+}
+#invoice-POS #mid {
+  min-height: 80px;
+}
+#invoice-POS #bot {
+  min-height: 50px;
+}
+#invoice-POS #top .logo img {
+  height: 60px;
+}
+#invoice-POS .info {
+  display: block;
+  margin-left: 0;
+}
+#invoice-POS .title {
+  float: right;
+}
+#invoice-POS .title p {
+  text-align: right;
+}
+#invoice-POS table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#invoice-POS .tabletitle {
+  font-size: .7em;
+  background: #EEE;
+}
+#invoice-POS .service {
+  border-bottom: 1px solid #EEE;
+}
+#invoice-POS .item {
+  width: 47mm;
+}
+#invoice-POS .itemtext {
+  font-size: .7em;
+}
+#invoice-POS #legalcopy {
+  margin-top: 5mm;
+}
+
+@media print {
+	body * { visibility: hidden; }
+	#invoice-POS * { visibility: visible; }
+	#invoice-POS { margin: 0; padding: 0; padding-top: 5px }
+}
+@page  
+{ 
+    size: auto;
+    margin: 0;  
+} 

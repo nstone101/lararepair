@@ -1,0 +1,16 @@
+<?php return array (
+  'edit_tax' => 'Upraviť daň',
+  'add_new_tax' => 'Pridať daň',
+  'added' => 'Daň pridaná.',
+  'could_not_find' => 'Neviem nájsť zvolenú daň.',
+  'default_cannot_be_deleted' => 'Základná daň nemôže byť zmazaná.',
+  'delete_tax' => 'Zmazať daň',
+  'deleted' => 'Daň bola zmazaná.',
+  'name' => 'Meno',
+  'tax' => 'Daň',
+  'tax_list' => 'Zoznam daní',
+  'code' => 'Kód dane',
+  'name' => 'Označenie dane',
+  'type' => 'Typ dane',
+  'rate' => 'Hodnota',
+);

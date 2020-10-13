@@ -1,0 +1,80 @@
+* {
+ color: #777; 
+ font-weight:400;
+}
+#print_button {
+ height 50px;
+ width: 50%;
+ line-height: 50px;
+ position: fixed;
+ left: 25%;
+ bottom: 0px;
+ color: white;
+ font-weight: bold;
+ text-align: center;
+ font-size: 17px;
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+ cursor: pointer;
+ background-color: crimson;
+}
+#print_button:hover {
+background-color: #3A3A3A;
+}
+@media print {
+#print_button {display: none;}
+}
+
+ @media print {
+     html, body {
+     height: 99%;    
+     font-size: 12px;
+     }
+     .no-print {
+      display: none;
+     }
+     #print-only {
+      display: block !important;
+     }
+   }
+.margin-0 {
+  margin:0;
+}
+
+
+.margin-10-top {
+  margin-top:10px;
+}
+
+.text-white {
+  color: white;
+}
+
+
+.report-boxes {
+   text-align:left;
+   border: 1px solid #D8D8D8;
+   background-color: #f5f5f5;
+   min-height:150px;
+}
+
+.head_left {
+  background: #3d3d3d;border: 1px solid #2f2f2f;
+}
+
+.a4-full{
+  width: 21cm;height: 29.7cm;margin: auto;
+}
+
+.a4-half{
+  width: 21cm;height: 14.8cm;margin: auto;
+}
+
+.img {
+  height: 80px
+}
+
+
+.no-padding-left {
+  padding-left: 0 !important;
+}

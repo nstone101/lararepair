@@ -1,0 +1,16 @@
+<?php return array (
+  'add_new_store' => 'Agregar tienda',
+  'added' => 'Tienda añadida.',
+  'address' => 'Dirección',
+  'code' => 'Código',
+  'could_not_find' => 'No pude encontrar la tienda seleccionada.',
+  'default_cannot_be_deleted' => 'No se puede eliminar el almacén predeterminado.',
+  'delete_store' => 'Borrar Tienda',
+  'deleted' => 'Almacén eliminado.',
+  'edit_store' => 'Editar Tienda',
+  'email' => 'Email',
+  'name' => 'Nombre',
+  'phone' => 'Teléfono',
+  'store' => 'Tienda',
+  'store_list' => 'Lista de tiendas',
+);

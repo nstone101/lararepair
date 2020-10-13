@@ -1,0 +1,5 @@
+{
+	"api/email-template/*": ["body"],
+	"api/configuration": ["invoice_email_text", "email_footer", "disclaimer"],
+	"api/status/*": ["email_text"]
+}

@@ -1,0 +1,15 @@
+<?php return array (
+  'edit_unit' => 'Edit Unit',
+  'add_new_unit' => 'Add Unit',
+  'added' => 'Unit added.',
+  'could_not_find' => 'Could not find selected unit.',
+  'default_cannot_be_deleted' => 'Default unit cannot be deleted.',
+  'delete_unit' => 'Delete Unit',
+  'deleted' => 'Unit deleted.',
+  'name' => 'Name',
+  'unit' => 'Unit',
+  'unit_list' => 'Unit List',
+  'code' => 'Code',
+  'name' => 'Name',
+  'allow_decimal' => 'Allow Decimal',
+);

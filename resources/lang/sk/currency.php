@@ -1,0 +1,15 @@
+<?php return array (
+  'add_new_currency' => 'Pridať menu',
+  'added' => 'Mena pridaná',
+  'code' => 'Kód',
+  'could_not_find' => 'Neviem nájsť zvolenú menu',
+  'currency' => 'Mena',
+  'currency_list' => 'Zoznam evidovaných mien',
+  'default_cannot_be_deleted' => 'Predvolená mena nemôže byť odstránená.',
+  'delete_currency' => 'Zmazať menu',
+  'deleted' => 'Mena odstránená',
+  'edit_currency' => 'Upraviť menu',
+  'name' => 'Názov',
+  'symbol' => 'Symbol',
+  'symbol_position' => 'Pozícia symbolu meny',
+);

@@ -1,0 +1,316 @@
+{
+	"default_config": {
+	    "locale": "en",
+	    "timezone": "Asia/Karachi",
+	    "notification_position": "toast-bottom-right",
+	    "date_format": "DD-MM-YYYY",
+	    "time_format": "H:mm",
+	    "page_length": 10,
+	    "driver": "log",
+	    "from_address": "hello@example.com",
+	    "from_name": "Hello",
+	    "token_lifetime": 120,
+	    "reset_password_token_lifetime": 30,
+	    "reset_password": 1,
+	    "footer_credit": "Powered By Open Technology Solutions",
+	    "is_rtl": 0,
+	    "mini_sidebar": 0,
+	    "repair_toggles": "Power Button,Wifi,Volume button,Glass,LCD,Charging Port,Home Button,Back Glass,Cellular Signal,Back Camera,Front Camera,Microphone",
+		
+		"ref_repair": 1,
+		"ref_prefix_repair": "REPAIR",
+		"ref_sale": 1,
+		"ref_prefix_sale": "SALE",
+		"ref_possale": 1,
+		"ref_prefix_possale": "SALE/POS",
+		"ref_payment": 1,
+		"ref_prefix_payment": "PAY",
+		"reference_format": 1,
+		"company_name": "Open Technology Solutions",
+		"version": "4.1",
+	    "currency": 1
+	},
+	"default_role": { 
+		"admin": "admin",
+		"user": "user" 
+	},
+	"default_template_field": { 
+		"user": "NAME, EMAIL, COMPANY_NAME, COMPANY_EMAIL, COMPANY_PHONE, COMPANY_WEBSITE, CURRENT_DATE_TIME, CURRENT_DATE"
+	},
+	"hidden_field": "xxxxxxxxxx",
+	"private_config_variables": [
+		"smtp_username",
+		"smtp_password",
+        "mailgun_username",
+        "mailgun_password",
+        "mailgun_secret",
+        "mandrill_secret",
+        "nexmo_api_key",
+        "nexmo_api_secret"
+	],
+	"public_config": [
+		"color_theme",
+        "date_format",
+        "time_format",
+        "notification_position",
+        "maintenance_mode",
+        "reset_password",
+        "https",
+        "mode",
+        "email_verification",
+        "footer_credit",
+        "is_rtl",
+        "mini_sidebar",
+        "enable_recaptcha",
+        "recaptcha_site_key",
+		"currency",
+		"company_name",
+		"ref_possale",
+		"ref_prefix_possale"
+	],
+	"upload_path": { 
+		"logo": "uploads/logo",
+		"avatar": "uploads/avatar",
+		"categories": "uploads/categories"
+	},
+	"pagination": [
+		"5","10","25","50","100"
+	],
+	"default_permission": [
+		"access-configuration",
+        "list-user",
+        "create-user",
+        "edit-user",
+        "delete-user",
+        "force-reset-user-password",
+        "email-user",
+        "change-status-user",
+        "enable-login",
+        "list-category",
+        "create-category",
+        "edit-category",
+        "delete-category",
+        "list-tax",
+        "create-tax",
+        "edit-tax",
+        "delete-tax",
+		"list-unit",
+        "create-unit",
+        "edit-unit",
+        "delete-unit",
+        "list-currency",
+        "create-currency",
+        "edit-currency",
+        "delete-currency",
+        "list-store",
+        "create-store",
+        "edit-store",
+        "delete-store",
+        "list-supplier",
+        "create-supplier",
+        "edit-supplier",
+        "delete-supplier",
+        "list-biller",
+        "create-biller",
+        "edit-biller",
+        "delete-biller",
+        "list-customer",
+        "create-customer",
+        "edit-customer",
+        "delete-customer",
+		"list-repair",
+        "create-repair",
+        "edit-repair",
+        "delete-repair",
+        "list-product",
+        "create-product",
+        "edit-product",
+        "delete-product",
+        "view-product",
+        "add-stock",
+        "list-status",
+        "create-status",
+        "edit-status",
+        "delete-status",
+		"list-sms-gateway",
+        "create-sms-gateway",
+        "edit-sms-gateway",
+        "delete-sms-gateway",
+        "list-payment",
+        "create-payment",
+        "edit-payment",
+        "delete-payment",
+        "list-event",
+        "create-event",
+        "edit-event",
+        "delete-event",
+        "import-customer",
+        "import-product",
+        "import-product-stock",
+        "report-stock",
+        "report-finance",
+        "report-quantity-alerts",
+        "settings-general",
+        "settings-repair",
+        "settings-invoice",
+        "settings-barcode",
+        "settings-email",
+        "settings-sms",
+        "settings-logo",
+        
+        "create-locale",
+        "edit-locale",
+        "list-locale",
+        "locale-translation",
+
+        "create-role",
+        "edit-role",
+        "list-role",
+        "delete-role",
+
+        "assign-permissions",
+        "activity-log",
+        "list-backup",
+        "generate-backup",
+
+        "list-email-template",
+        "edit-email-template",
+        "notification-log",
+
+        "settings-appearance",
+
+        "list-custom-field",
+        "create-custom-field",
+        "edit-custom-field",
+        "delete-custom-field",
+		
+		"list-pos-register",
+        "create-pos-register",
+        "edit-pos-register",
+		"delete-pos-register",
+		
+		"list-voucher",
+        "create-voucher",
+        "edit-voucher",
+		"delete-voucher",
+		
+		"list-sale",
+        "create-sale",
+        "edit-sale",
+        "delete-sale"
+	],
+	"mail_drivers": [
+		{
+			"text": "Mail",
+			"value": "mail"
+		},
+		{
+			"text": "Sendmail",
+			"value": "sendmail"
+		},
+		{
+			"text": "Mailgun",
+			"value": "mailgun"
+		},
+		{
+			"text": "Mandrill",
+			"value": "mandrill"
+		},
+		{
+			"text": "SMTP",
+			"value": "smtp"
+		},
+		{
+			"text": "Log",
+			"value": "log"
+		}
+	],
+
+	"date_formats": [
+		{ 
+			"text": "DD-MM-YYYY",
+			"value": "DD-MM-YYYY"
+		},
+		{ 
+			"text": "MM-DD-YYYY",
+			"value": "MM-DD-YYYY"
+		},
+		{ 
+			"text": "DD-MMM-YYYY",
+			"value": "DD-MMM-YYYY"
+		},
+		{ 
+			"text": "MMM-DD-YYYY",
+			"value": "MMM-DD-YYYY"
+		}
+	],
+	"time_formats": [
+		{ 
+			"text": "H:mm",
+			"value": "H:mm"
+		},
+		{ 
+			"text": "h:mm a",
+			"value": "h:mm a"
+		}
+	],
+	"tax_methods": [
+		{ 
+			"text": "inclusive",
+			"value": "inclusive"
+		},
+		{ 
+			"text": "exclusive",
+			"value": "exclusive"
+		}
+	],
+	"barcodes": [
+		{ 
+			"text": "C39",
+			"value": "C39"
+		},
+		{ 
+			"text": "C128",
+			"value": "C128"
+		},
+		{ 
+			"text": "EAN-13",
+			"value": "EAN-13"
+		},
+		{ 
+			"text": "EAN-8",
+			"value": "EAN-8"
+		},
+		{ 
+			"text": "UPC-A",
+			"value": "UPC-A"
+		},
+		{ 
+			"text": "UPC-E",
+			"value": "UPC-E"
+		},
+		{ 
+			"text": "ITF-14",
+			"value": "ITF-14"
+		}
+	],
+	"page_font_array": [
+		{ 
+			"text": "12px",
+			"value": "12px"
+		},
+		{ 
+			"text": "13px",
+			"value": "13px"
+		},
+		{ 
+			"text": "14px",
+			"value": "14px"
+		},
+		{ 
+			"text": "15px",
+			"value": "15px"
+		}
+
+	]
+}

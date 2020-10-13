@@ -1,0 +1,27 @@
+#invoice-POS {
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding: 2mm;
+  margin: 0 auto;
+  width: 80mm;
+  background: #FFF;
+}
+
+#dati .col {
+    width: 100%;
+}
+#dati .col b {
+    width: 45%;
+}
+
+@media print {
+    body * { visibility: hidden; }
+    #invoice-POS * { visibility: visible; }
+}
+@page  
+{ 
+    size: auto;   /* auto is the initial value */ 
+    margin: 0;  
+} 
+.logo {
+  width: 100%;
+}

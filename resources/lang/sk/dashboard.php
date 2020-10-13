@@ -1,0 +1,17 @@
+<?php return array (
+  'dashboard' => 'Nástenka',
+  'email_address' => 'Emailová adresa',
+  'email_body' => 'Obsah správy',
+  'email_subject' => 'Predmet emailu',
+  'month' => 'Tento mesiac',
+  'period_registered_user' => ':period Registrovaných užívateľov',
+  'registered_user' => 'Registrovaný používateľ',
+  'sms_phone' => 'SMS Telefónne číslo',
+  'sms_text' => 'SMS Text',
+  'today' => 'Dnes',
+  'total' => 'Spolu',
+  'total_customers' => 'Spolu zákazníkov',
+  'total_inventory' => 'Sklad dohromady',
+  'total_repairs' => 'Spolu zákaziek',
+  'week' => 'Tento týždeň',
+);

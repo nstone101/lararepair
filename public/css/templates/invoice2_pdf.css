@@ -1,0 +1,46 @@
+.no-print {
+display: block;
+}
+.table-condensed {
+width: 97%;
+border: 1px solid #ccc;
+}
+.table-condensed td {
+height: 30px !important;
+padding-top: 12px !important;
+}
+@media print {
+ #print_button, #save_button, #email_button {display: none;}
+ .col-xs-7 {
+ width: 57.5%;
+ }
+ .col-xs-5 {
+ width: 40%;
+ }
+ .col-xs-4 {
+ width: 30%;
+ }
+ .col-xs-3 {
+ width: 23%;
+ }
+ .is-table-row .col-xs-3 {
+ width: 28%;
+ }
+ .col-xs-2 {
+ width: 13.5%;
+ }
+ .col-xs-1 {
+ width: 11.5%;
+ }
+ .col-xs-8 {
+ width: 60%;
+ }
+ .row_item{
+ height: 200px !important;
+ }
+}
+@page {
+ margin: 0mm;
+ margin-header: 0mm;
+ margin-footer: 0mm;
+}

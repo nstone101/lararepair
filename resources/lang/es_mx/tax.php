@@ -1,0 +1,16 @@
+<?php return array (
+  'edit_tax' => 'Edit Tax',
+  'add_new_tax' => 'Add Tax',
+  'added' => 'Tax added.',
+  'could_not_find' => 'Could not find selected tax.',
+  'default_cannot_be_deleted' => 'Default tax cannot be deleted.',
+  'delete_tax' => 'Delete Tax',
+  'deleted' => 'Tax deleted.',
+  'name' => 'Name',
+  'tax' => 'Tax',
+  'tax_list' => 'Tax List',
+  'code' => 'Code',
+  'name' => 'Name',
+  'type' => 'Tax Type',
+  'rate' => 'Rate',
+);

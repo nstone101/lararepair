@@ -1,0 +1,57 @@
+.style14 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.style15 {font-size: 14px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;}
+body,td,th {
+  font-family: Calibri;
+  font-size: 14px;
+  color: #000000;
+}
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+@media print {
+#footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.no_print {
+  display: none;
+}
+}
+
+@media screen {
+#footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+}
+
+.style16 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+.td_bold {
+  font-size: 16px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  white-space: normal;
+}
+.nomer_por {
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: "trebuchet MS";
+}
+.border_table   {
+  border: 1px solid #999999;
+}

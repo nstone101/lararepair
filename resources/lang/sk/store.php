@@ -1,0 +1,17 @@
+<?php return array (
+  'edit_store' => 'Upraviť obchod',
+  'add_new_store' => 'Pridať obchod',
+  'added' => 'Obchod pridaný.',
+  'could_not_find' => 'Neviem nájsť tento obchod.',
+  'default_cannot_be_deleted' => 'Primárny obchod nemôže byť odstránený.',
+  'delete_store' => 'Zmazať obchod',
+  'deleted' => 'Obchod zmazaný.',
+  'name' => 'Názov',
+  'store' => 'Obchod',
+  'store_list' => 'Zoznam prevádzok',
+  'code' => 'Označenie',
+  'name' => 'Názov',
+  'address' => 'Adresa',
+  'phone' => 'Telefón',
+  'email' => 'Email',
+);

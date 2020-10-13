@@ -1,0 +1,15 @@
+<?php return array (
+  'add_new_currency' => 'Agregar moneda',
+  'added' => 'Moneda agregada',
+  'code' => 'Código',
+  'could_not_find' => 'No se pudo encontrar la moneda seleccionada.',
+  'currency' => 'Moneda',
+  'currency_list' => 'Lista de Monedas',
+  'default_cannot_be_deleted' => 'La moneda predeterminada no se puede eliminar.',
+  'delete_currency' => 'Borrar Moneda',
+  'deleted' => 'Moneda borrada',
+  'edit_currency' => 'Editar Moneda',
+  'name' => 'Nombre',
+  'symbol' => 'Símbolo',
+  'symbol_position' => 'Posición del símbolo',
+);

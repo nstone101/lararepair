@@ -1,0 +1,14 @@
+@media print {
+    html, body {
+        height: 99%;    
+        font-size: 12px;
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    #print-only {
+        display: block !important;
+    }
+}

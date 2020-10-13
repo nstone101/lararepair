@@ -1,0 +1,7 @@
+{
+	"welcome-email-user": {
+		"category": "user",
+		"subject": "Welcome Email User | [COMPANY_NAME]",
+		"fields": "NAME, EMAIL, PASSWORD, COMPANY_NAME, COMPANY_EMAIL, COMPANY_PHONE, COMPANY_WEBSITE, COMPANY_ADDRESS,CURRENT_DATE,CURRENT_DATE_TIME"
+	}
+}
