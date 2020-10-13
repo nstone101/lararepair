@@ -20,7 +20,7 @@
         "nexmo/client": "^2.0",
         "nexmo/laravel": "^2.2",
         "niklasravnsborg/laravel-pdf": "^4.0",
-        "simplesoftwareio/simple-qrcode": "~2",
+        "simplesoftwareio/simple-qrcode": "~4",
         "spatie/laravel-permission": "^3.3",
         "stripe/stripe-php": "^7.45",
         "symfony/translation-contracts": "^1.1.6",
