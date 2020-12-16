@@ -23,7 +23,7 @@
         "simplesoftwareio/simple-qrcode": "~2",
         "spatie/laravel-permission": "^3.3",
         "stripe/stripe-php": "^7.45",
-        "symfony/translation-contracts": "^1.1.6",
+        "symfony/translation-contracts": "^2.3.0",
         "twilio/sdk": "^6.1",
         "tymon/jwt-auth": "1.0.x-dev"
     },
